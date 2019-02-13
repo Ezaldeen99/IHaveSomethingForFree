@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "872777101963",
+    "firebase_url": "https://i-have-something-for-free.firebaseio.com",
+    "project_id": "i-have-something-for-free",
+    "storage_bucket": "i-have-something-for-free.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872777101963:android:ee943a41a3f42387",
+        "android_client_info": {
+          "package_name": "gradle.ezaldeen.android.ihavesomethingforfree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872777101963-5rc6u7ll4jtdannbsccgsba1gevgp3u0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gradle.ezaldeen.android.ihavesomethingforfree",
+            "certificate_hash": "a52b4b63cb0ec88f02c41742ccc96991554fe3c0"
+          }
+        },
+        {
+          "client_id": "872777101963-rgnf0il3b221qq4f7jkc8he20j6crjat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD584pqRZv8e1abOlT73zTFfOnmOezncOc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872777101963-rgnf0il3b221qq4f7jkc8he20j6crjat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

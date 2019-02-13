@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/image_post_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/user_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/person_image" />
+
+    <TextView
+        android:id="@+id/username_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/user_image"
+        android:layout_toRightOf="@id/user_image"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <TextView
+        android:id="@+id/posted_date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_text"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@id/user_image"
+        android:layout_toRightOf="@id/user_image"
+        tools:text="Date" />
+
+
+    <ImageView
+        android:id="@+id/posts_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/user_image"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/posts_picture" />
+
+    <TextView
+        android:id="@+id/describtion_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/posts_image"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp" />
+</RelativeLayout>

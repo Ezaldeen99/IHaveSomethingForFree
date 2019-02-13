@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/if_rounded_11_2024664"
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/Logout"
+        android:icon="@drawable/if_logout_13_2024662"
+        android:title="@string/logout" />
+</menu>

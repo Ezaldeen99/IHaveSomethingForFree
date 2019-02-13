@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">I have something for free</string>
+    <string name="nav_open" translatable="false">nav open</string>
+    <string name="nav_closed" translatable="false">nav closed</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="_8942" translatable="false">&#8942;</string>
+    <string name="empty_widget_view">couldn\'t find any posts</string>
+    <string name="your_posts">your posts</string>
+    <string name="key" translatable="false">trnsl.1.1.20181006T171749Z.2ddb91c5de12fc5d.d7ac67d14fe71caed75579d92a1e41783a3ff0b7</string>
+    <string name="remove_translation">remove translation</string>
+    <string name="translate">Translate</string>
+    <string name="powered_by_yandex">Powered by Yandex</string>
+    <string name="yendex_url" translatable="false">http://translate.yandex.com/</string>
+    <string name="delete_dialoge">it will be deleted forever, are you sure ?</string>
+    <string name="delete">delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="languages_pair">en-ar</string>
+    <string name="data_updated">Data Updated</string>
+    <string name="error">error :</string>
+    <string name="connection_Failed">Connection to Google Failed</string>
+    <string name="wait_message">please wait we are getting your auth result</string>
+    <string name="auth_error">can\'t get  auth result</string>
+    <string name="google_sign_in_fail">signIn With Google :failure</string>
+    <string name="information_needed">please fill all the required information</string>
+    <string name="wrong_message">something wrong happened:</string>
+    <string name="missing_data">please enter all the required data</string>
+    <string name="password_not_matching">Passwords you entered is not matching</string>
+    <string name="email_not_valid">The Email is not valid</string>
+    <string name="creating_account_bar_title">Creating New Account</string>
+    <string name="waiting_message_bar">Please wait, while we are creating your new Account...</string>
+    <string name="done_creating_account">your account is successfully created</string>
+    <string name="enter_user_pic">please select a user pic</string>
+    <string name="profile_image_bar_title">Profile Image</string>
+    <string name="updating_profile_image">Please wait, while we updating your profile image...</string>
+    <string name="saving">Saving Information</string>
+    <string name="status_default">hi there</string>
+    <string name="country_default">Iraq</string>
+    <string name="new_post">New Post</string>
+    <string name="select_image">please select an Image</string>
+    <string name="enter_desc">please enter description</string>
+    <string name="enter_date">please enter a date</string>
+    <string name="wrong_date">you selected a date in the past, please select another date</string>
+    <string name="adding_post">Add New Post</string>
+    <string name="update_post">Please wait, while we are updating your new post...</string>
+    <string name="done">posted ^^</string>
+    <string name="done_posting">New Post is updated successfully</string>
+    <string name="no_username">username is Empty!</string>
+    <string name="no_name">full Name is Empty!</string>
+    <string name="no_number">phone Number is Empty!</string>
+    <string name="no_status">status is Empty!</string>
+    <string name="updating_account">Please wait, while we are updating your  Account...</string>
+    <string name="profile">Profile Image</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_click_here">Don\'t have an account ?click here</string>
+    <string name="or_login_with">Or Login with</string>
+    <string name="logo">logo</string>
+    <string name="must_be_taken_before">must be taken before</string>
+    <string name="posts_picture">posts picture</string>
+    <string name="arrow_down_button">arrow down button</string>
+    <string name="arrow_up_button">arrow up button</string>
+    <string name="person_image">person image</string>
+    <string name="add_image">add Image</string>
+    <string name="save">save</string>
+    <string name="date">date</string>
+    <string name="description">description</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="any_details_such_age_occupation_or_city_example_23_y_o_designer_from_baghdad_n_n">Any details such age,occupation or city Example: 23 y.o designer from Baghdad</string>
+    <string name="full_name">full name</string>
+    <string name="enter_your_name_and_add_an_optional_profile_picture_n_n">Enter your name and add an optional profile picture</string>
+    <string name="username">username</string>
+    <string name="bio">Bio</string>
+    <string name="change_number">Change Number</string>
+    <string name="country">Country</string>
+    <string name="log_out">Log out</string>
+    <string name="your_number">your number</string>
+    <string name="your_country">your country</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="first_name">First Name</string>
+    <string name="add_a_user_image">add a user image</string>
+    <string name="settings">settings</string>
+    <string name="logout">Logout</string>
+    <string name="edit">edit</string>
+    <string name="no_country">please select a country</string>
+    <string name="home">home</string>
+    <string name="date_format" translatable="false">dd-MM-yyyy</string>
+    <string name="time_format" translatable="false">HH:mm</string>
+    <string name="date_string">Date:</string>
+    <string name="in_date_string">, in</string>
+    <string name="new_post_button">new post button</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="done_settings">done</string>
+    <string name="edit_post">Edit Post</string>
+</resources>

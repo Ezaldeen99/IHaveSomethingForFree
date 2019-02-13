@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="1dp"
+    app:cardCornerRadius="8dp" tools:targetApi="lollipop">
+
+    <RelativeLayout
+        android:id="@+id/image_post_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_image"
+            android:layout_width="60dp"
+            android:contentDescription="@string/person_image"
+            android:layout_height="60dp"
+            android:layout_margin="8dp" />
+
+        <TextView
+            android:id="@+id/username_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/user_image"
+            android:layout_toRightOf="@id/user_image"
+            tools:text="UserName"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+        <TextView
+            android:id="@+id/posted_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username_text"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/user_image"
+            android:layout_toRightOf="@id/user_image"
+            tools:text="Date" />
+
+
+        <ImageView
+            android:id="@+id/posts_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/user_image"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/posts_picture" />
+
+        <TextView
+            android:id="@+id/textViewOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:padding="16dp"
+            android:text="@string/_8942"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/expand_button_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/posts_image"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/if_arrow_up2_1814087"
+            android:contentDescription="@string/arrow_down_button" />
+
+        <ImageButton
+            android:id="@+id/expand_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/posts_image"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/if_arrow_down2_1814082"
+            android:contentDescription="@string/arrow_up_button" />
+
+        <TextView
+            android:id="@+id/translate_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/posts_image"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:text="@string/translate" />
+
+        <TextView
+            android:id="@+id/copyRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/posts_image"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:layout_toEndOf="@+id/translate_text"
+            android:layout_toRightOf="@+id/translate_text"
+            android:text="@string/powered_by_yandex" />
+
+        <RelativeLayout
+            android:id="@+id/collapse_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/translate_text">
+
+            <TextView
+                android:id="@+id/describtion_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp" />
+
+            <TextView
+                android:id="@+id/must_be_taken_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/describtion_text"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/must_be_taken_before" />
+
+            <TextView
+                android:id="@+id/taken_date_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/describtion_text"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                tools:text="1990"
+                android:layout_toEndOf="@id/must_be_taken_text"
+                android:layout_toRightOf="@id/must_be_taken_text"
+                android:gravity="center"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
