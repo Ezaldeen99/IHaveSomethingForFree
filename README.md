@@ -4,8 +4,7 @@ This application submitted to udacity as a final stage project in the Android De
 people can share their unwanted things so other other people who need it take It before a specific date
 
 
-
-used libraries 
+`libraries`
 
 'com.squareup.picasso:picasso:2.71828' // to load images from firebase storage
 
